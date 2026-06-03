@@ -13,7 +13,12 @@ import os
 api_key = os.environ.get("OWM_API_KEY")
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
+
+print("$$$$TEST$$$$$")
+
 print(api_key)
+print("$$$$TEST$$$$$")
+
 parameters ={
     "lat": 54.5972 ,
     "lon": -5.930120,
